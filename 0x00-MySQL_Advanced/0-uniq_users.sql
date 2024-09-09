@@ -1,7 +1,8 @@
 --- create table
 
-CREATE TABLE IF NOT EXISTS users(
-                                id INT PRIMARY_KEY NOT NULL AUTO_INCREMENT,
-                                email NOT NULL UNIQUE VARCHAR(255),
-                                name VARCHAR(225)
-                                );
+
+CREATE TABLE IF NOT EXISTS users (
+	id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	email varchar(255) NOT NULL UNIQUE,
+	name varchar(255)
+)
